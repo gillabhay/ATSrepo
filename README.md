@@ -8,9 +8,7 @@ void stdout_example()
     auto err_logger = spdlog::stderr_color_mt("stderr");    
     spdlog::get("console")->info("loggers can be retrieved from a global registry using the spdlog::get(logger_name)");
 }
-
 #pragma once
-
 #include <iomanip>
 #include <locale>
 #include <sstream>
